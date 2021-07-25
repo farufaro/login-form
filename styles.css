@@ -22,7 +22,6 @@ body {
 }
 
 
-/* change size of the user(avatar icon) */
 
 .user {
     width: 100px;
@@ -30,7 +29,6 @@ body {
     border-radius: 50%;
     position: absolute;
     top: -50px;
-    /* para gumitna yung icon */
     left: calc(50% - 50px);
 }
 
@@ -75,9 +73,7 @@ input[type="password"] {
 
 .login input[type="submit"]:hover {
     cursor: pointer;
-    /* login bg color of box will change when hovered */
     background: #e0e964;
-    /* login text color will change if hovered */
     color: #000;
 }
 
